@@ -15,7 +15,7 @@ public class Conversion {
 	// Converts from a line of text with comma separated value to an FileSnake object
 	public static FileSnake decodeLine(String line){
 		int pos,fin;
-		String name = "",head="-1",tail="-1";
+		String name = "",tail="-1",head="-1";
 
 		// Divide the line into the three parameters, name, tail and head
 		// If one of them does not appear, we fill the data automatically with correct values
