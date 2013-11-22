@@ -1,0 +1,381 @@
+2013-11-21 11:19:34 ERROR SnakyController:47 - Error in number of parameter, aborting execution
+2013-11-21 11:31:40 ERROR SnakyController:68 - Bad song category, wrong format number for '0'
+2013-11-21 19:48:23 ERROR SnakyController:68 - Bad song category, wrong format number for 'mundo'
+2013-11-21 19:48:48 ERROR SnakyController:80 - Bad song category, wrong format number for 'mundo'
+2013-11-21 19:48:48 ERROR LongSnakeSong:31 - Error in For input string: "mundo"
+2013-11-21 19:49:34 INFO  SnakyController:68 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='0'
+2013-11-21 19:49:34 INFO  SnakyController:119 - FileSnake Decoded - Rod 1 1
+2013-11-21 19:49:34 INFO  SnakyController:119 - FileSnake Decoded - Jane 0 0
+2013-11-21 19:49:34 INFO  SnakyController:119 - FileSnake Decoded - Freddy 2 1
+2013-11-21 19:49:34 INFO  SnakyController:146 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 19:49:34 INFO  SnakyController:146 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 19:49:34 INFO  SnakyController:146 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 19:49:34 INFO  SnakyController:67 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 19:49:34 INFO  SnakyController:67 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 19:49:34 INFO  SnakyController:67 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 19:49:34 INFO  SnakyController:80 - Path found: Rod, Jane
+2013-11-21 19:49:34 INFO  SnakyController:80 - Path found: Jane, Rod
+2013-11-21 19:49:34 INFO  SnakyController:80 - Path found: Freddy, Jane, Rod
+2013-11-21 19:52:08 INFO  SnakyController:68 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='1'
+2013-11-21 19:52:08 INFO  SnakyController:119 - FileSnake Decoded - Rod 1 1
+2013-11-21 19:52:08 INFO  SnakyController:119 - FileSnake Decoded - Jane 0 0
+2013-11-21 19:52:08 INFO  SnakyController:119 - FileSnake Decoded - Freddy 2 1
+2013-11-21 19:52:08 INFO  SnakyController:146 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 19:52:08 INFO  SnakyController:146 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 19:52:08 INFO  SnakyController:146 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 19:52:08 INFO  SnakyController:67 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 19:52:08 INFO  SnakyController:67 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 19:52:08 INFO  SnakyController:67 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 19:52:08 INFO  SnakyController:80 - Path found: Rod, Jane, Rod, Jane
+2013-11-21 19:52:08 INFO  SnakyController:80 - Path found: Jane, Rod, Jane, Rod
+2013-11-21 19:52:08 INFO  SnakyController:80 - Path found: Freddy, Freddy, Jane, Rod, Jane, Rod
+2013-11-21 19:54:32 INFO  SnakyController:68 - Parameters read: Filename='..//snakefiles//sample02.txt' and Category='1'
+2013-11-21 19:54:32 INFO  SnakyController:119 - FileSnake Decoded - ￼￼Jane 2 2
+2013-11-21 19:54:32 INFO  SnakyController:119 - FileSnake Decoded - Freddy 1 0
+2013-11-21 19:54:32 INFO  SnakyController:119 - FileSnake Decoded - Rod 0 0
+2013-11-21 19:54:32 INFO  SnakyController:146 - SingerSnake at 0 - ￼￼Jane Rod Rod
+2013-11-21 19:54:32 INFO  SnakyController:146 - SingerSnake at 1 - Freddy Freddy ￼￼Jane
+2013-11-21 19:54:32 INFO  SnakyController:146 - SingerSnake at 2 - Rod ￼￼Jane ￼￼Jane
+2013-11-21 19:54:32 INFO  SnakyController:67 - Starting deep search with SingerSnake at 0 - ￼￼Jane Rod Rod
+2013-11-21 19:54:32 INFO  SnakyController:67 - Starting deep search with SingerSnake at 1 - Freddy Freddy ￼￼Jane
+2013-11-21 19:54:32 INFO  SnakyController:67 - Starting deep search with SingerSnake at 2 - Rod ￼￼Jane ￼￼Jane
+2013-11-21 19:54:32 INFO  SnakyController:80 - Path found: ￼￼Jane, Rod, ￼￼Jane, Rod
+2013-11-21 19:54:32 INFO  SnakyController:80 - Path found: Freddy, Freddy, ￼￼Jane, Rod, ￼￼Jane, Rod
+2013-11-21 19:54:32 INFO  SnakyController:80 - Path found: Rod, ￼￼Jane, Rod, ￼￼Jane
+2013-11-21 19:58:33 INFO  SnakyController:68 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='0'
+2013-11-21 19:58:33 INFO  SnakyController:119 - FileSnake Decoded - Rod 1 1
+2013-11-21 19:58:33 INFO  SnakyController:119 - FileSnake Decoded - Jane 0 0
+2013-11-21 19:58:33 INFO  SnakyController:119 - FileSnake Decoded - Freddy 2 1
+2013-11-21 19:58:33 INFO  SnakyController:146 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 19:58:33 INFO  SnakyController:146 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 19:58:33 INFO  SnakyController:146 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 19:58:33 INFO  SnakyController:67 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 19:58:33 INFO  SnakyController:67 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 19:58:33 INFO  SnakyController:67 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 19:58:33 INFO  SnakyController:80 - Path found: Rod, Jane
+2013-11-21 19:58:33 INFO  SnakyController:80 - Path found: Jane, Rod
+2013-11-21 19:58:33 INFO  SnakyController:80 - Path found: Freddy, Jane, Rod
+2013-11-21 19:58:46 INFO  SnakyController:68 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='1'
+2013-11-21 19:58:46 INFO  SnakyController:119 - FileSnake Decoded - Rod 1 1
+2013-11-21 19:58:46 INFO  SnakyController:119 - FileSnake Decoded - Jane 0 0
+2013-11-21 19:58:46 INFO  SnakyController:119 - FileSnake Decoded - Freddy 2 1
+2013-11-21 19:58:46 INFO  SnakyController:146 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 19:58:46 INFO  SnakyController:146 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 19:58:46 INFO  SnakyController:146 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 19:58:46 INFO  SnakyController:67 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 19:58:46 INFO  SnakyController:67 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 19:58:46 INFO  SnakyController:67 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 19:58:46 INFO  SnakyController:80 - Path found: Rod, Jane, Rod, Jane
+2013-11-21 19:58:46 INFO  SnakyController:80 - Path found: Jane, Rod, Jane, Rod
+2013-11-21 19:58:46 INFO  SnakyController:80 - Path found: Freddy, Freddy, Jane, Rod, Jane, Rod
+2013-11-21 20:29:25 INFO  SnakyController:67 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='1'
+2013-11-21 20:29:25 INFO  SnakyController:118 - FileSnake Decoded - Rod 1 1
+2013-11-21 20:29:25 INFO  SnakyController:118 - FileSnake Decoded - Jane 0 0
+2013-11-21 20:29:25 INFO  SnakyController:118 - FileSnake Decoded - Freddy 2 1
+2013-11-21 20:29:25 INFO  SnakyController:145 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 20:29:25 INFO  SnakyController:145 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 20:29:25 INFO  SnakyController:145 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 20:29:25 INFO  SnakyController:70 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 20:29:25 INFO  SnakyController:70 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 20:29:25 INFO  SnakyController:70 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 20:29:25 INFO  SnakyController:92 - Path found: Rod, Jane, Rod, Jane
+2013-11-21 20:29:25 INFO  SnakyController:92 - Path found: Jane, Rod, Jane, Rod
+2013-11-21 20:29:25 INFO  SnakyController:92 - Path found: Freddy, Freddy, Jane, Rod, Jane, Rod
+2013-11-21 20:29:39 INFO  SnakyController:67 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='0'
+2013-11-21 20:29:39 INFO  SnakyController:118 - FileSnake Decoded - Rod 1 1
+2013-11-21 20:29:39 INFO  SnakyController:118 - FileSnake Decoded - Jane 0 0
+2013-11-21 20:29:39 INFO  SnakyController:118 - FileSnake Decoded - Freddy 2 1
+2013-11-21 20:29:39 INFO  SnakyController:145 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 20:29:39 INFO  SnakyController:145 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 20:29:39 INFO  SnakyController:145 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 20:29:39 INFO  SnakyController:70 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 20:29:39 INFO  SnakyController:70 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 20:29:39 INFO  SnakyController:70 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 20:29:39 INFO  SnakyController:92 - Path found: Rod, Jane
+2013-11-21 20:29:39 INFO  SnakyController:92 - Path found: Jane, Rod
+2013-11-21 20:29:39 INFO  SnakyController:92 - Path found: Freddy, Jane, Rod
+2013-11-21 22:13:48 INFO  SnakyController:71 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='0'
+2013-11-21 22:13:48 INFO  SnakyController:122 - FileSnake Decoded - Rod 1 1
+2013-11-21 22:13:48 INFO  SnakyController:122 - FileSnake Decoded - Jane 0 0
+2013-11-21 22:13:48 INFO  SnakyController:122 - FileSnake Decoded - Freddy 2 1
+2013-11-21 22:13:48 INFO  SnakyController:149 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:13:48 INFO  SnakyController:149 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:13:48 INFO  SnakyController:149 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:13:48 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:13:48 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:13:48 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:13:48 INFO  LongSnakeSong:42 - A maximal length 0-MRPS song for this 3-snake ensemble has 3
+2013-11-21 22:13:48 INFO  LongSnakeSong:44 - Freddy, Jane, Rod
+2013-11-21 22:14:35 INFO  SnakyController:71 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='0'
+2013-11-21 22:14:35 INFO  SnakyController:122 - FileSnake Decoded - Rod 1 1
+2013-11-21 22:14:35 INFO  SnakyController:122 - FileSnake Decoded - Jane 0 0
+2013-11-21 22:14:35 INFO  SnakyController:122 - FileSnake Decoded - Freddy 2 1
+2013-11-21 22:14:35 INFO  SnakyController:149 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:14:35 INFO  SnakyController:149 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:14:35 INFO  SnakyController:149 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:14:35 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:14:35 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:14:35 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:14:35 INFO  LongSnakeSong:42 - A maximal length 0-MRPS song for this 3-snake ensemble has 3
+2013-11-21 22:14:35 INFO  LongSnakeSong:44 - Freddy, Jane, Rod
+2013-11-21 22:15:06 INFO  SnakyController:71 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='0'
+2013-11-21 22:15:06 INFO  SnakyController:122 - FileSnake Decoded - Rod 1 1
+2013-11-21 22:15:06 INFO  SnakyController:122 - FileSnake Decoded - Jane 0 0
+2013-11-21 22:15:06 INFO  SnakyController:122 - FileSnake Decoded - Freddy 2 1
+2013-11-21 22:15:06 INFO  SnakyController:149 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:15:06 INFO  SnakyController:149 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:15:06 INFO  SnakyController:149 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:15:06 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:15:06 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:15:06 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:15:06 INFO  LongSnakeSong:42 - A maximal length 0-MRPS song for this 3-snake ensemble has 3
+2013-11-21 22:15:06 INFO  LongSnakeSong:44 - Freddy, Jane, Rod
+2013-11-21 22:15:09 INFO  SnakyController:71 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='1'
+2013-11-21 22:15:09 INFO  SnakyController:122 - FileSnake Decoded - Rod 1 1
+2013-11-21 22:15:09 INFO  SnakyController:122 - FileSnake Decoded - Jane 0 0
+2013-11-21 22:15:09 INFO  SnakyController:122 - FileSnake Decoded - Freddy 2 1
+2013-11-21 22:15:09 INFO  SnakyController:149 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:15:09 INFO  SnakyController:149 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:15:09 INFO  SnakyController:149 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:15:09 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:15:09 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:15:09 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:15:09 INFO  LongSnakeSong:42 - A maximal length 1-MRPS song for this 3-snake ensemble has 6
+2013-11-21 22:15:09 INFO  LongSnakeSong:44 - Freddy, Freddy, Jane, Rod, Jane, Rod
+2013-11-21 22:17:30 INFO  SnakyController:71 - Parameters read: Filename='/snakefiles//sample01.txt' and Category='0'
+2013-11-21 22:17:30 ERROR SnakyController:76 - SimpleFile not exists - '/snakefiles//sample01.txt'
+2013-11-21 22:17:30 ERROR LongSnakeSong:31 - Error in SimpleFile not exists
+2013-11-21 22:17:41 INFO  SnakyController:71 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='0'
+2013-11-21 22:17:41 INFO  SnakyController:122 - FileSnake Decoded - Rod 1 1
+2013-11-21 22:17:41 INFO  SnakyController:122 - FileSnake Decoded - Jane 0 0
+2013-11-21 22:17:41 INFO  SnakyController:122 - FileSnake Decoded - Freddy 2 1
+2013-11-21 22:17:41 INFO  SnakyController:149 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:17:41 INFO  SnakyController:149 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:17:41 INFO  SnakyController:149 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:17:41 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:17:41 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:17:41 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:17:41 INFO  LongSnakeSong:42 - A maximal length 0-MRPS song for this 3-snake ensemble has 3
+2013-11-21 22:17:41 INFO  LongSnakeSong:44 - Freddy, Jane, Rod
+2013-11-21 22:19:49 INFO  SnakyController:71 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='0'
+2013-11-21 22:19:49 INFO  SnakyController:122 - FileSnake Decoded - Rod 1 1
+2013-11-21 22:19:49 INFO  SnakyController:122 - FileSnake Decoded - Jane 0 0
+2013-11-21 22:19:49 INFO  SnakyController:122 - FileSnake Decoded - Freddy 2 1
+2013-11-21 22:19:49 INFO  SnakyController:149 - SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:19:49 INFO  SnakyController:149 - SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:19:49 INFO  SnakyController:149 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:19:49 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-21 22:19:49 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-21 22:19:49 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-21 22:19:49 INFO  LongSnakeSong:42 - A maximal length 0-MRPS song for this 3-snake ensemble has 3
+2013-11-21 22:19:49 INFO  LongSnakeSong:44 - Freddy, Jane, Rod
+2013-11-22 07:34:01 ERROR SnakyController:62 - Error in number of parameter, aborting execution
+2013-11-22 07:34:01 ERROR LongSnakeSong:31 - Error in Error in number of parameters. Aborting execution.
+2013-11-22 07:34:05 ERROR SnakyController:87 - Bad song category, wrong format number for 'q'
+2013-11-22 07:34:05 ERROR LongSnakeSong:31 - Error in For input string: "q"
+2013-11-22 07:34:13 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample01.tx' and Category='0'
+2013-11-22 07:34:13 ERROR SnakyController:78 - SimpleFile not exists - '..//snakefiles//sample01.tx'
+2013-11-22 07:34:13 ERROR LongSnakeSong:31 - Error in SimpleFile not exists
+2013-11-22 07:34:27 ERROR SnakyController:62 - Error in number of parameter, aborting execution
+2013-11-22 07:34:27 ERROR LongSnakeSong:31 - Error in Error in number of parameters. Aborting execution.
+2013-11-22 07:34:55 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='0'
+2013-11-22 07:34:55 INFO  SnakyController:128 - FileSnake Decoded - Rod 1 1
+2013-11-22 07:34:55 INFO  SnakyController:128 - FileSnake Decoded - Jane 0 0
+2013-11-22 07:34:55 INFO  SnakyController:128 - FileSnake Decoded - Freddy 2 1
+2013-11-22 07:34:55 INFO  SnakyController:155 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 07:34:55 INFO  SnakyController:155 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 07:34:55 INFO  SnakyController:155 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 07:34:55 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 07:34:55 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 07:34:55 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 07:34:55 INFO  LongSnakeSong:42 - A maximal length 0-MRPS song for this 3-snake ensemble has 3
+2013-11-22 07:34:55 INFO  LongSnakeSong:44 - Freddy, Jane, Rod
+2013-11-22 08:36:40 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='0'
+2013-11-22 08:36:40 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:36:40 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:36:40 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:36:40 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:36:40 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:36:40 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:36:40 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:36:40 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:36:40 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:36:40 INFO  LongSnakeSong:45 - A maximal length 0-MRPS song for this 3-snake ensemble has 3
+2013-11-22 08:36:40 INFO  LongSnakeSong:47 - Freddy, Jane, Rod
+2013-11-22 08:36:43 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='1'
+2013-11-22 08:36:43 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:36:43 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:36:43 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:36:43 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:36:43 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:36:43 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:36:43 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:36:43 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:36:43 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:36:43 INFO  LongSnakeSong:45 - A maximal length 1-MRPS song for this 3-snake ensemble has 6
+2013-11-22 08:36:43 INFO  LongSnakeSong:47 - Freddy, Freddy, Jane, Rod, Jane, Rod
+2013-11-22 08:36:46 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample01.txt' and Category='2'
+2013-11-22 08:36:46 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:36:46 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:36:46 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:36:46 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:36:46 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:36:46 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:36:46 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:36:46 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:36:46 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:36:46 INFO  LongSnakeSong:45 - A maximal length 2-MRPS song for this 3-snake ensemble has 9
+2013-11-22 08:36:46 INFO  LongSnakeSong:47 - Freddy, Freddy, Freddy, Jane, Rod, Jane, Rod, Jane, Rod
+2013-11-22 08:36:50 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample03.txt' and Category='2'
+2013-11-22 08:36:50 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:36:50 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:36:50 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:36:50 INFO  SnakyController:135 - FileSnake Decoded - Fon 1 -1
+2013-11-22 08:36:50 INFO  SnakyController:135 - FileSnake Decoded - Ra -1 -1
+2013-11-22 08:36:50 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:36:50 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:36:50 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:36:50 INFO  SnakyController:162 - SingerSnake at 3 - Fon Jane 
+2013-11-22 08:36:50 INFO  SnakyController:162 - SingerSnake at 4 - Ra  
+2013-11-22 08:36:50 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:36:50 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:36:50 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:36:50 INFO  SnakyController:69 - Starting deep search with SingerSnake at 3 - Fon Jane 
+2013-11-22 08:36:50 INFO  SnakyController:69 - Starting deep search with SingerSnake at 4 - Ra  
+2013-11-22 08:36:50 INFO  LongSnakeSong:45 - A maximal length 2-MRPS song for this 5-snake ensemble has 9
+2013-11-22 08:36:50 INFO  LongSnakeSong:47 - Freddy, Freddy, Freddy, Jane, Rod, Jane, Rod, Jane, Rod
+2013-11-22 08:36:59 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample03.txt' and Category='1'
+2013-11-22 08:36:59 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:36:59 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:36:59 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:36:59 INFO  SnakyController:135 - FileSnake Decoded - Fon 1 -1
+2013-11-22 08:36:59 INFO  SnakyController:135 - FileSnake Decoded - Ra -1 -1
+2013-11-22 08:36:59 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:36:59 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:36:59 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:36:59 INFO  SnakyController:162 - SingerSnake at 3 - Fon Jane 
+2013-11-22 08:36:59 INFO  SnakyController:162 - SingerSnake at 4 - Ra  
+2013-11-22 08:36:59 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:36:59 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:36:59 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:36:59 INFO  SnakyController:69 - Starting deep search with SingerSnake at 3 - Fon Jane 
+2013-11-22 08:36:59 INFO  SnakyController:69 - Starting deep search with SingerSnake at 4 - Ra  
+2013-11-22 08:36:59 INFO  LongSnakeSong:45 - A maximal length 1-MRPS song for this 5-snake ensemble has 6
+2013-11-22 08:36:59 INFO  LongSnakeSong:47 - Freddy, Freddy, Jane, Rod, Jane, Rod
+2013-11-22 08:37:04 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample03.txt' and Category='2'
+2013-11-22 08:37:04 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:37:04 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:37:04 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:37:04 INFO  SnakyController:135 - FileSnake Decoded - Fon 1 -1
+2013-11-22 08:37:04 INFO  SnakyController:135 - FileSnake Decoded - Ra -1 -1
+2013-11-22 08:37:04 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:37:04 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:37:04 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:37:04 INFO  SnakyController:162 - SingerSnake at 3 - Fon Jane 
+2013-11-22 08:37:04 INFO  SnakyController:162 - SingerSnake at 4 - Ra  
+2013-11-22 08:37:04 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:37:04 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:37:04 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:37:04 INFO  SnakyController:69 - Starting deep search with SingerSnake at 3 - Fon Jane 
+2013-11-22 08:37:04 INFO  SnakyController:69 - Starting deep search with SingerSnake at 4 - Ra  
+2013-11-22 08:37:04 INFO  LongSnakeSong:45 - A maximal length 2-MRPS song for this 5-snake ensemble has 9
+2013-11-22 08:37:04 INFO  LongSnakeSong:47 - Freddy, Freddy, Freddy, Jane, Rod, Jane, Rod, Jane, Rod
+2013-11-22 08:37:39 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample03.txt' and Category='1'
+2013-11-22 08:37:39 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:37:39 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:37:39 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:37:39 INFO  SnakyController:135 - FileSnake Decoded - Fon 1 -1
+2013-11-22 08:37:39 INFO  SnakyController:135 - FileSnake Decoded - Ra -1 -1
+2013-11-22 08:37:39 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:37:39 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:37:39 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:37:39 INFO  SnakyController:162 - SingerSnake at 3 - Fon Jane 
+2013-11-22 08:37:39 INFO  SnakyController:162 - SingerSnake at 4 - Ra  
+2013-11-22 08:37:39 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:37:39 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:37:39 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:37:39 INFO  SnakyController:69 - Starting deep search with SingerSnake at 3 - Fon Jane 
+2013-11-22 08:37:39 INFO  SnakyController:69 - Starting deep search with SingerSnake at 4 - Ra  
+2013-11-22 08:37:39 INFO  LongSnakeSong:45 - A maximal length 1-MRPS song for this 5-snake ensemble has 6
+2013-11-22 08:37:39 INFO  LongSnakeSong:47 - Freddy, Freddy, Jane, Rod, Jane, Rod
+2013-11-22 08:37:41 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample03.txt' and Category='0'
+2013-11-22 08:37:41 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:37:41 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:37:41 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:37:41 INFO  SnakyController:135 - FileSnake Decoded - Fon 1 -1
+2013-11-22 08:37:41 INFO  SnakyController:135 - FileSnake Decoded - Ra -1 -1
+2013-11-22 08:37:41 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:37:41 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:37:41 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:37:41 INFO  SnakyController:162 - SingerSnake at 3 - Fon Jane 
+2013-11-22 08:37:41 INFO  SnakyController:162 - SingerSnake at 4 - Ra  
+2013-11-22 08:37:41 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:37:41 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:37:41 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:37:41 INFO  SnakyController:69 - Starting deep search with SingerSnake at 3 - Fon Jane 
+2013-11-22 08:37:41 INFO  SnakyController:69 - Starting deep search with SingerSnake at 4 - Ra  
+2013-11-22 08:37:41 INFO  LongSnakeSong:45 - A maximal length 0-MRPS song for this 5-snake ensemble has 3
+2013-11-22 08:37:41 INFO  LongSnakeSong:47 - Freddy, Jane, Rod
+2013-11-22 08:37:46 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample03.txt' and Category='5'
+2013-11-22 08:37:46 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:37:46 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:37:46 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:37:46 INFO  SnakyController:135 - FileSnake Decoded - Fon 1 -1
+2013-11-22 08:37:46 INFO  SnakyController:135 - FileSnake Decoded - Ra -1 -1
+2013-11-22 08:37:46 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:37:46 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:37:46 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:37:46 INFO  SnakyController:162 - SingerSnake at 3 - Fon Jane 
+2013-11-22 08:37:46 INFO  SnakyController:162 - SingerSnake at 4 - Ra  
+2013-11-22 08:37:46 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:37:46 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:37:46 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:37:46 INFO  SnakyController:69 - Starting deep search with SingerSnake at 3 - Fon Jane 
+2013-11-22 08:37:46 INFO  SnakyController:69 - Starting deep search with SingerSnake at 4 - Ra  
+2013-11-22 08:37:46 INFO  LongSnakeSong:45 - A maximal length 5-MRPS song for this 5-snake ensemble has 18
+2013-11-22 08:37:46 INFO  LongSnakeSong:47 - Freddy, Freddy, Freddy, Freddy, Freddy, Freddy, Jane, Rod, Jane, Rod, Jane, Rod, Jane, Rod, Jane, Rod, Jane, Rod
+2013-11-22 08:38:11 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample03.txt' and Category='1'
+2013-11-22 08:38:11 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:38:11 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:38:11 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:38:11 INFO  SnakyController:135 - FileSnake Decoded - Fon 2 -1
+2013-11-22 08:38:11 INFO  SnakyController:135 - FileSnake Decoded - Ra -1 -1
+2013-11-22 08:38:11 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:38:11 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:38:11 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:38:11 INFO  SnakyController:162 - SingerSnake at 3 - Fon Freddy 
+2013-11-22 08:38:11 INFO  SnakyController:162 - SingerSnake at 4 - Ra  
+2013-11-22 08:38:11 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:38:11 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:38:11 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:38:11 INFO  SnakyController:69 - Starting deep search with SingerSnake at 3 - Fon Freddy 
+2013-11-22 08:38:11 INFO  SnakyController:69 - Starting deep search with SingerSnake at 4 - Ra  
+2013-11-22 08:38:11 INFO  LongSnakeSong:45 - A maximal length 1-MRPS song for this 5-snake ensemble has 7
+2013-11-22 08:38:11 INFO  LongSnakeSong:47 - Fon, Freddy, Freddy, Jane, Rod, Jane, Rod
+2013-11-22 08:39:05 ERROR SnakyController:62 - Error in number of parameter, aborting execution
+2013-11-22 08:39:05 ERROR LongSnakeSong:34 - Error in Error in number of parameters. Aborting execution.
+2013-11-22 08:39:07 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample03.txt' and Category='3'
+2013-11-22 08:39:07 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-22 08:39:07 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-22 08:39:07 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-22 08:39:07 INFO  SnakyController:135 - FileSnake Decoded - Fon 2 -1
+2013-11-22 08:39:07 INFO  SnakyController:135 - FileSnake Decoded - Ra -1 -1
+2013-11-22 08:39:07 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:39:07 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:39:07 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:39:07 INFO  SnakyController:162 - SingerSnake at 3 - Fon Freddy 
+2013-11-22 08:39:07 INFO  SnakyController:162 - SingerSnake at 4 - Ra  
+2013-11-22 08:39:07 INFO  SnakyController:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-22 08:39:07 INFO  SnakyController:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-22 08:39:07 INFO  SnakyController:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-22 08:39:07 INFO  SnakyController:69 - Starting deep search with SingerSnake at 3 - Fon Freddy 
+2013-11-22 08:39:07 INFO  SnakyController:69 - Starting deep search with SingerSnake at 4 - Ra  
+2013-11-22 08:39:07 INFO  LongSnakeSong:45 - A maximal length 3-MRPS song for this 5-snake ensemble has 13
+2013-11-22 08:39:07 INFO  LongSnakeSong:47 - Fon, Freddy, Freddy, Freddy, Freddy, Jane, Rod, Jane, Rod, Jane, Rod, Jane, Rod
+2013-11-22 08:39:10 ERROR SnakyController:87 - Bad song category, wrong format number for '5g'
+2013-11-22 08:39:10 ERROR LongSnakeSong:34 - Error in For input string: "5g"
+2013-11-22 08:39:17 ERROR SnakyController:62 - Error in number of parameter, aborting execution
+2013-11-22 08:39:17 ERROR LongSnakeSong:34 - Error in Error in number of parameters. Aborting execution.
+2013-11-22 08:39:22 INFO  SnakyController:73 - Parameters read: Filename='..//snakefiles//sample03.tx' and Category='3'
+2013-11-22 08:39:22 ERROR SnakyController:78 - SimpleFile not exists - '..//snakefiles//sample03.tx'
+2013-11-22 08:39:22 ERROR LongSnakeSong:34 - Error in SimpleFile not exists

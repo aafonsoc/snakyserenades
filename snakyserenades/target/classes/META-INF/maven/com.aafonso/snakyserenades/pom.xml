@@ -1,0 +1,94 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.aafonso</groupId>
+  <artifactId>snakyserenades</artifactId>
+  <version>0.0.1</version>
+  <packaging>jar</packaging>
+
+  <name>snakyserenades</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <!-- Dependencies -->
+  <dependencies>
+    <!-- Junit Test suite -->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <!-- Log -->
+    <dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-log4j12</artifactId>
+		<version>1.5.2</version>
+	</dependency>
+  </dependencies>
+  
+  <!-- Build configuration -->
+  <build>
+  	<plugins>
+		<!-- JRE compiler level -->
+		<plugin>
+        	<groupId>org.apache.maven.plugins</groupId>
+        	<artifactId>maven-compiler-plugin</artifactId>
+        	<version>3.0</version>
+        	<configuration>
+           		<source>1.6</source>
+           		<target>1.6</target>
+        	</configuration>
+		</plugin>  		
+		<!-- Auto executable jar -->
+       	<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-jar-plugin</artifactId>
+            <version>2.4</version>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <addClasspath>true</addClasspath>
+                        <classpathPrefix>lib/</classpathPrefix>
+                        <mainClass>com.aafonso.snakyserenades.LongSnakeSong</mainClass>               
+                    </manifest>           
+                </archive>
+                <executions>
+                    <execution>
+                        <id>default-package</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </configuration>
+        </plugin>        
+    	<!-- Include all dependencies in jar -->
+       	<plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>2.1</version>
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>shade</goal>
+                    </goals>
+                    <configuration>
+                        <transformers>
+                            <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <mainClass>com.aafonso.snakyserenades.LongSnakeSong</mainClass>
+                            </transformer>
+                        </transformers>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>      
+      </plugins>
+    </build>
+</project>

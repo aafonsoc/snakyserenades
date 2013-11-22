@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Class-Path: lib/slf4j-log4j12-1.5.2.jar lib/slf4j-api-1.5.2.jar lib/lo
+ g4j-1.2.14.jar
+Build-Jdk: 1.6.0_65
+Built-By: aafonso
+Created-By: Maven Integration for Eclipse
+Main-Class: com.aafonso.snakyserenades.LongSnakeSong
+
