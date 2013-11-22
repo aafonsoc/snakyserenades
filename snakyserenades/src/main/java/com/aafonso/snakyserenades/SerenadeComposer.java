@@ -34,7 +34,7 @@ import com.aafonso.snakyserenades.model.SongsResults;
 public class SerenadeComposer {
 	
 	// Log 
-	protected Logger log = LoggerFactory.getLogger(SnakyController.class);
+	protected Logger log = LoggerFactory.getLogger(SerenadeComposer.class);
 	// The Snakes :)
 	private SingerSnakeEnsemble ensemble;	
 	// Song category
