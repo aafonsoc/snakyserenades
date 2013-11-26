@@ -1,116 +1,58 @@
-2013-11-26 17:15:11 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample01.txt' and Category='1'
-2013-11-26 17:15:11 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample01.txt' and Category='0'
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
-2013-11-26 17:15:12 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
-2013-11-26 17:15:12 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
-2013-11-26 17:15:12 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
-2013-11-26 17:15:12 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
-2013-11-26 17:15:12 INFO  SerenadeComposer:87 - Path found with 2 songs and formed by 'Rod,Jane' snakes
-2013-11-26 17:15:12 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
-2013-11-26 17:15:12 INFO  SerenadeComposer:87 - Path found with 2 songs and formed by 'Jane,Rod' snakes
-2013-11-26 17:15:12 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
-2013-11-26 17:15:12 INFO  SerenadeComposer:87 - Path found with 3 songs and formed by 'Freddy,Jane,Rod' snakes
-2013-11-26 17:15:12 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample01.txt' and Category='1'
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
-2013-11-26 17:15:12 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
-2013-11-26 17:15:12 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
-2013-11-26 17:15:12 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
-2013-11-26 17:15:12 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
-2013-11-26 17:15:12 INFO  SerenadeComposer:87 - Path found with 4 songs and formed by 'Rod,Jane,Rod,Jane' snakes
-2013-11-26 17:15:12 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
-2013-11-26 17:15:12 INFO  SerenadeComposer:87 - Path found with 4 songs and formed by 'Jane,Rod,Jane,Rod' snakes
-2013-11-26 17:15:12 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
-2013-11-26 17:15:12 INFO  SerenadeComposer:87 - Path found with 6 songs and formed by 'Freddy,Freddy,Jane,Rod,Jane,Rod' snakes
-2013-11-26 17:15:12 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample02.txt' and Category='0'
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - ￼￼Jane 2 2
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Freddy 1 0
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Rod 0 0
-2013-11-26 17:15:12 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample02.txt' and Category='1'
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - ￼￼Jane 2 2
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Freddy 1 0
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Rod 0 0
-2013-11-26 17:15:12 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample04.txt' and Category='0'
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Delta 3 -1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Charlie 2 -1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Echo 4 -1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Foxtrot 5 -1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - India 8 -1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Alfa 0 -1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Brava 1 -1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Golf 6 -1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Juliett 9 -1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Kilo 0 1
-2013-11-26 17:15:12 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample05.txt' and Category='0'
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Alfa-0 1 0
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Brava-1 1 0
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Charlie-2 3 3
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Delta-3 2 9
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Echo-4 7 2
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Foxtrot-5 8 4
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Golf-6 9 1
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Hotel-7 6 5
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - India-8 0 6
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Juliett-9 10 4
-2013-11-26 17:15:12 INFO  SnakyController:135 - FileSnake Decoded - Kilo-10 0 10
-2013-11-26 17:25:34 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample01.txt' and Category='1'
-2013-11-26 17:25:34 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample01.txt' and Category='0'
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
-2013-11-26 17:25:34 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
-2013-11-26 17:25:34 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
-2013-11-26 17:25:34 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
-2013-11-26 17:25:34 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
-2013-11-26 17:25:34 INFO  SerenadeComposer:87 - Path found with 2 songs and formed by 'Rod,Jane' snakes
-2013-11-26 17:25:34 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
-2013-11-26 17:25:34 INFO  SerenadeComposer:87 - Path found with 2 songs and formed by 'Jane,Rod' snakes
-2013-11-26 17:25:34 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
-2013-11-26 17:25:34 INFO  SerenadeComposer:87 - Path found with 3 songs and formed by 'Freddy,Jane,Rod' snakes
-2013-11-26 17:25:34 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample01.txt' and Category='1'
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
-2013-11-26 17:25:34 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
-2013-11-26 17:25:34 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
-2013-11-26 17:25:34 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
-2013-11-26 17:25:34 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
-2013-11-26 17:25:34 INFO  SerenadeComposer:87 - Path found with 4 songs and formed by 'Rod,Jane,Rod,Jane' snakes
-2013-11-26 17:25:34 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
-2013-11-26 17:25:34 INFO  SerenadeComposer:87 - Path found with 4 songs and formed by 'Jane,Rod,Jane,Rod' snakes
-2013-11-26 17:25:34 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
-2013-11-26 17:25:34 INFO  SerenadeComposer:87 - Path found with 6 songs and formed by 'Freddy,Freddy,Jane,Rod,Jane,Rod' snakes
-2013-11-26 17:25:34 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample02.txt' and Category='0'
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - ￼￼Jane 2 2
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - Freddy 1 0
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - Rod 0 0
-2013-11-26 17:25:34 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample02.txt' and Category='1'
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - ￼￼Jane 2 2
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - Freddy 1 0
-2013-11-26 17:25:34 INFO  SnakyController:135 - FileSnake Decoded - Rod 0 0
-2013-11-26 17:25:34 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample04.txt' and Category='0'
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Delta 3 -1
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Charlie 2 -1
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Echo 4 -1
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Foxtrot 5 -1
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - India 8 -1
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Alfa 0 -1
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Brava 1 -1
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Golf 6 -1
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Juliett 9 -1
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Kilo 0 1
-2013-11-26 17:25:35 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample05.txt' and Category='0'
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Alfa-0 1 0
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Brava-1 1 0
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Charlie-2 3 3
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Delta-3 2 9
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Echo-4 7 2
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Foxtrot-5 8 4
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Golf-6 9 1
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Hotel-7 6 5
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - India-8 0 6
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Juliett-9 10 4
-2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Kilo-10 0 10
+2013-11-26 17:35:40 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample01.txt' and Category='1'
+2013-11-26 17:35:40 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample01.txt' and Category='0'
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-26 17:35:40 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-26 17:35:40 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-26 17:35:40 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-26 17:35:40 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-26 17:35:40 INFO  SerenadeComposer:87 - Path found with 2 songs and formed by 'Rod,Jane' snakes
+2013-11-26 17:35:40 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-26 17:35:40 INFO  SerenadeComposer:87 - Path found with 2 songs and formed by 'Jane,Rod' snakes
+2013-11-26 17:35:40 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-26 17:35:40 INFO  SerenadeComposer:87 - Path found with 3 songs and formed by 'Freddy,Jane,Rod' snakes
+2013-11-26 17:35:40 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample01.txt' and Category='1'
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Rod 1 1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Jane 0 0
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Freddy 2 1
+2013-11-26 17:35:40 INFO  SnakyController:162 - SingerSnake at 0 - Rod Jane Jane
+2013-11-26 17:35:40 INFO  SnakyController:162 - SingerSnake at 1 - Jane Rod Rod
+2013-11-26 17:35:40 INFO  SnakyController:162 - SingerSnake at 2 - Freddy Freddy Jane
+2013-11-26 17:35:40 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 0 - Rod Jane Jane
+2013-11-26 17:35:40 INFO  SerenadeComposer:87 - Path found with 4 songs and formed by 'Rod,Jane,Rod,Jane' snakes
+2013-11-26 17:35:40 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 1 - Jane Rod Rod
+2013-11-26 17:35:40 INFO  SerenadeComposer:87 - Path found with 4 songs and formed by 'Jane,Rod,Jane,Rod' snakes
+2013-11-26 17:35:40 INFO  SerenadeComposer:69 - Starting deep search with SingerSnake at 2 - Freddy Freddy Jane
+2013-11-26 17:35:40 INFO  SerenadeComposer:87 - Path found with 6 songs and formed by 'Freddy,Freddy,Jane,Rod,Jane,Rod' snakes
+2013-11-26 17:35:40 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample02.txt' and Category='0'
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - ￼￼Jane 2 2
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Freddy 1 0
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Rod 0 0
+2013-11-26 17:35:40 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample02.txt' and Category='1'
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - ￼￼Jane 2 2
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Freddy 1 0
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Rod 0 0
+2013-11-26 17:35:40 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample04.txt' and Category='0'
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Delta 3 -1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Charlie 2 -1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Echo 4 -1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Foxtrot 5 -1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - India 8 -1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Alfa 0 -1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Brava 1 -1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Golf 6 -1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Juliett 9 -1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Kilo 0 1
+2013-11-26 17:35:40 INFO  SnakyController:73 - Parameters read: Filename='snakefiles//sample05.txt' and Category='0'
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Alfa-0 1 0
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Brava-1 1 0
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Charlie-2 3 3
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Delta-3 2 9
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Echo-4 7 2
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Foxtrot-5 8 4
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Golf-6 9 1
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Hotel-7 6 5
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - India-8 0 6
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Juliett-9 10 4
+2013-11-26 17:35:40 INFO  SnakyController:135 - FileSnake Decoded - Kilo-10 0 10

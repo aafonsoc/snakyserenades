@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.aafonso.snakyserenades.SnakyAppTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.801 sec <<< FAILURE!
-testAppSample04_0(com.aafonso.snakyserenades.SnakyAppTest)  Time elapsed: 0.06 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: expected:<3> but was:<10>
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.failNotEquals(Assert.java:282)
-	at junit.framework.Assert.assertEquals(Assert.java:64)
-	at junit.framework.Assert.assertEquals(Assert.java:201)
-	at junit.framework.Assert.assertEquals(Assert.java:207)
-	at com.aafonso.snakyserenades.SnakyAppTest.testAppSample04_0(SnakyAppTest.java:165)
-testAppSample05_0(com.aafonso.snakyserenades.SnakyAppTest)  Time elapsed: 0.042 sec  <<< FAILURE!
-junit.framework.AssertionFailedError: expected:<3> but was:<11>
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.Assert.failNotEquals(Assert.java:282)
-	at junit.framework.Assert.assertEquals(Assert.java:64)
-	at junit.framework.Assert.assertEquals(Assert.java:201)
-	at junit.framework.Assert.assertEquals(Assert.java:207)
-	at com.aafonso.snakyserenades.SnakyAppTest.testAppSample05_0(SnakyAppTest.java:178)
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.119 sec
