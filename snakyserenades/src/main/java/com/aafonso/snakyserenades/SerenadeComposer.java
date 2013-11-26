@@ -83,10 +83,13 @@ public class SerenadeComposer {
 			sres.setNum(numsongs);
 			sres.setSong(res);
 			resultsArray.add(sres);
+			// Log
+			log.info("Path found with "+numsongs+" songs and formed by '"+res+"' snakes");
 		}
 	}
 	
 	public String deepSearch(SingerSnake sn){
+		String heads = "", tails = "";
 		// Head Side
 		if (sn.getHeadEnd()!=null) 
 		{
@@ -96,7 +99,7 @@ public class SerenadeComposer {
 				visits.put(sn.getHeadEnd().getName(), i+1);
 				// Returns actual node plus the following path
 				numsongs++;
-				return sn.getName() + ", " + (String) deepSearch((SingerSnake) sn.getHeadEnd());
+				heads = "," + (String) deepSearch((SingerSnake) sn.getHeadEnd());
 			}
 		}		
 		// Tail Side
@@ -108,11 +111,11 @@ public class SerenadeComposer {
 				visits.put(sn.getTailEnd().getName(), i+1);
 				// Returns actual node plus the following path
 				numsongs++;
-				return sn.getName() + ", " + (String) deepSearch((SingerSnake) sn.getTailEnd());
+				tails = "," +  (String) deepSearch((SingerSnake) sn.getTailEnd());
 			}
 		}
 		// Return value
-		return sn.getName();
+		return sn.getName() + heads + tails;
 	}
 
 	// Get resultsArray

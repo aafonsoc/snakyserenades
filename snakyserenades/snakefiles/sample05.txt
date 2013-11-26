@@ -1,0 +1,11 @@
+Alfa-0,0,1
+Brava-1,0,1
+Charlie-2,3,3
+Delta-3,9,2
+Echo-4,2,7
+Foxtrot-5,4,8
+Golf-6,1,9
+Hotel-7,5,6
+India-8,6,0
+Juliett-9,4,10
+Kilo-10,10,0

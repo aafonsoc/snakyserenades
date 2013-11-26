@@ -151,4 +151,32 @@ public class SnakyAppTest extends TestCase
 		}
 		assertEquals(snac.getResultsArray().size(),3);
 	}
+    
+    // App Test file sample04 category 0
+    public void testAppSample04_0()
+    {
+    	String[] args = {"snakefiles//sample04.txt","0"};
+		SnakyController snac = null;		
+    	try {
+			snac = new SnakyController(args);
+			snac.run();
+		} catch (Throwable e) {
+		}
+		assertEquals(snac.getResultsArray().size(),10);
+	}
+    
+    // App Test file sample05 category 0
+    public void testAppSample05_0()
+    {
+    	String[] args = {"snakefiles//sample05.txt","0"};
+		SnakyController snac = null;		
+    	try {
+			snac = new SnakyController(args);
+			snac.run();
+		} catch (Throwable e) {
+		}
+		assertEquals(snac.getResultsArray().size(),11);
+		//"Delta-3, Charlie-2, Echo-4, Foxtrot-5, India-8, Alfa-0, Brava-1, Golf-6, Juliett-9, Kilo-10";
+	}
+    
 }

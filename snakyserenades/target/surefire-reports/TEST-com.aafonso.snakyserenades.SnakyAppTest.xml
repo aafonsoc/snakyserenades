@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="2.217" errors="0" skipped="0" tests="7" name="com.aafonso.snakyserenades.SnakyAppTest">
+<testsuite failures="2" time="1.8" errors="0" skipped="0" tests="9" name="com.aafonso.snakyserenades.SnakyAppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/aafonso/Development/Eclipse_Agrabanet/snakyserenades"/>
+    <property name="user.dir" value="/Users/aafonso/Development/Git/snakyserenades/snakyserenades"/>
     <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
     <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
@@ -27,7 +27,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/aafonso/Development/Eclipse_Agrabanet/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf7486771839431620723.tmp"/>
+    <property name="classworlds.conf" value="/Users/aafonso/Development/Eclipse_Agrabanet/.metadata/.plugins/org.eclipse.m2e.core/launches/m2conf7316578510692041352.tmp"/>
     <property name="sun.jnu.encoding" value="MacRoman"/>
     <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -54,7 +54,7 @@
     <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
     <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
     <property name="java.vendor" value="Apple Inc."/>
-    <property name="maven.home" value="/Users/aafonso/Development/Eclipse_Agrabanet/snakyserenades/EMBEDDED"/>
+    <property name="maven.home" value="/Users/aafonso/Development/Git/snakyserenades/snakyserenades/EMBEDDED"/>
     <property name="file.separator" value="/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -64,11 +64,56 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testSingerSnake"/>
-  <testcase time="0.084" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testSingerSnakeEsemble"/>
-  <testcase time="1.364" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppInit"/>
-  <testcase time="0.449" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppSample01_0"/>
-  <testcase time="0.012" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppSample01_1"/>
-  <testcase time="0.212" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppSample02_0"/>
-  <testcase time="0.003" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppSample02_1"/>
+  <testcase time="0.002" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testSingerSnake"/>
+  <testcase time="0.019" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testSingerSnakeEsemble"/>
+  <testcase time="1.314" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppInit"/>
+  <testcase time="0.251" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppSample01_0"/>
+  <testcase time="0.036" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppSample01_1"/>
+  <testcase time="0.042" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppSample02_0"/>
+  <testcase time="0.008" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppSample02_1"/>
+  <testcase time="0.06" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppSample04_0">
+    <failure message="expected:&lt;3&gt; but was:&lt;10&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;3&gt; but was:&lt;10&gt;
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at junit.framework.Assert.assertEquals(Assert.java:207)
+	at com.aafonso.snakyserenades.SnakyAppTest.testAppSample04_0(SnakyAppTest.java:165)
+</failure>
+    <system-out>2013-11-26 17:25:34 INFO  SnakyController:73 - Parameters read: Filename=&apos;snakefiles//sample04.txt&apos; and Category=&apos;0&apos;
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Delta 3 -1
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Charlie 2 -1
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Echo 4 -1
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Foxtrot 5 -1
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - India 8 -1
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Alfa 0 -1
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Brava 1 -1
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Golf 6 -1
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Juliett 9 -1
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Kilo 0 1
+</system-out>
+  </testcase>
+  <testcase time="0.042" classname="com.aafonso.snakyserenades.SnakyAppTest" name="testAppSample05_0">
+    <failure message="expected:&lt;3&gt; but was:&lt;11&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;3&gt; but was:&lt;11&gt;
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.failNotEquals(Assert.java:282)
+	at junit.framework.Assert.assertEquals(Assert.java:64)
+	at junit.framework.Assert.assertEquals(Assert.java:201)
+	at junit.framework.Assert.assertEquals(Assert.java:207)
+	at com.aafonso.snakyserenades.SnakyAppTest.testAppSample05_0(SnakyAppTest.java:178)
+</failure>
+    <system-out>2013-11-26 17:25:35 INFO  SnakyController:73 - Parameters read: Filename=&apos;snakefiles//sample05.txt&apos; and Category=&apos;0&apos;
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Alfa-0 1 0
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Brava-1 1 0
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Charlie-2 3 3
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Delta-3 2 9
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Echo-4 7 2
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Foxtrot-5 8 4
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Golf-6 9 1
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Hotel-7 6 5
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - India-8 0 6
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Juliett-9 10 4
+2013-11-26 17:25:35 INFO  SnakyController:135 - FileSnake Decoded - Kilo-10 0 10
+</system-out>
+  </testcase>
 </testsuite>

@@ -7,4 +7,4 @@ Alfa, 0
 Brava, 1
 Golf, 6
 Juliett, 9
-Kilo, 10
+Kilo, 1,0
